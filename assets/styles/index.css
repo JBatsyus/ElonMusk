@@ -1,0 +1,194 @@
+@import url(./fonts.css);
+body {
+  background: url("/assets/image/fon_10.png") no-repeat center center fixed;
+  background-size: cover;
+  max-width: 100%;
+}
+
+.header {
+  display: flex;
+  align-items: center;
+  max-width: 100%;
+  padding-left: 10%;
+  padding-right: 10%;
+  margin: auto;
+  height: 100px;
+  border-bottom: 1px solid #989393;
+}
+.header .header__wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  gap: 50px;
+  width: 100%;
+}
+.header .header__wrapper .menu {
+  display: flex;
+  gap: 50px;
+}
+.header .nav__link {
+  font-family: "MuseoSansCyrl";
+  font-size: 16px;
+  line-height: 22px;
+  font-weight: 300;
+  color: #ffffff;
+  text-decoration: none;
+}
+.header .nav__link:hover {
+  color: #989393;
+}
+.header .nav__item {
+  display: flex;
+  text-decoration: none;
+}
+
+a {
+  position: relative;
+  color: #989393;
+  cursor: pointer;
+  line-height: 1;
+  text-decoration: none;
+}
+
+a:after {
+  display: block;
+  position: absolute;
+  left: 0;
+  width: 0;
+  height: 1px;
+  background-color: #989393;
+  content: "";
+  transition: width 0.3s ease-out;
+}
+
+a:hover:after,
+a:focus:after {
+  margin-top: 5px;
+  width: 100%;
+}
+
+.main {
+  display: flex;
+  padding-left: 10%;
+  padding-right: 10%;
+  height: 80vh;
+  margin: auto;
+}
+
+.right {
+  width: 55%;
+  height: 100%;
+}
+
+.title {
+  padding-top: 185px;
+  padding-left: 40px;
+}
+
+.btn__wrapper {
+  padding-left: 7%;
+  padding-top: 23%;
+  height: 30%;
+  display: flex;
+}
+
+.btn {
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0.274);
+  width: 180px;
+  height: 35px;
+  padding: 0;
+  border-style: solid;
+  border-width: 1px;
+  border-image-source: linear-gradient(189deg, #263e66 20%, #09213d 40%, #111f2d 61%, #23599c 79%);
+  border-image-slice: 1;
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+  font-family: "MuseoSansCyrl";
+  font-size: 14px;
+  line-height: 1.2;
+  font-weight: 100;
+  color: #ffffff;
+}
+
+.arrow {
+  width: 109%;
+  margin-top: 20px;
+}
+
+.left {
+  width: 43%;
+  height: 100%;
+}
+
+.card__wrapper {
+  padding-top: 20%;
+  padding-left: 35%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 5px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 172px;
+  height: 172px;
+  font-family: "MuseoSansCyrl";
+  font-size: 16px;
+  line-height: 1.2;
+  font-weight: 100;
+  color: #ffffff;
+}
+.card:hover {
+  cursor: pointer;
+}
+.card .card__text {
+  padding-bottom: 15px;
+}
+.card .number {
+  font-size: 60px;
+  font-weight: 700;
+}
+.card .card__text {
+  font-size: 18px;
+}
+
+.one {
+  background-image: linear-gradient(to left top, rgba(173, 173, 173, 0.082), rgba(153, 153, 153, 0));
+}
+.one:hover {
+  background-image: linear-gradient(to left top, rgba(173, 173, 173, 0.199), rgba(153, 153, 153, 0));
+  border-bottom: 0.5px solid #9893935d;
+  border-right: 0.5px solid #98939359;
+}
+
+.two {
+  background-image: linear-gradient(to right top, rgba(173, 173, 173, 0.082), rgba(153, 153, 153, 0));
+}
+.two:hover {
+  background-image: linear-gradient(to right top, rgba(173, 173, 173, 0.199), rgba(153, 153, 153, 0));
+  border-bottom: 0.5px solid #9893935d;
+  border-left: 0.5px solid #98939359;
+}
+
+.three {
+  background-image: linear-gradient(to left bottom, rgba(173, 173, 173, 0.082), rgba(153, 153, 153, 0));
+}
+.three:hover {
+  background-image: linear-gradient(to left bottom, rgba(173, 173, 173, 0.199), rgba(153, 153, 153, 0));
+  border-top: 0.5px solid #9893935d;
+  border-right: 0.5px solid #98939359;
+}
+
+.four {
+  background-image: linear-gradient(to right bottom, rgba(173, 173, 173, 0.082), rgba(153, 153, 153, 0));
+}
+.four:hover {
+  background-image: linear-gradient(to right bottom, rgba(173, 173, 173, 0.199), rgba(153, 153, 153, 0));
+  border-top: 0.5px solid #9893935d;
+  border-left: 0.5px solid #98939359;
+}/*# sourceMappingURL=index.css.map */
