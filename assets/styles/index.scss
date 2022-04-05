@@ -1,0 +1,332 @@
+@import url(./fonts.css);
+
+body {
+  background: url("../image/fon_10.png") no-repeat center center fixed;
+  background-size: cover;
+  max-width: 100%;
+}
+
+.main {
+  display: flex;
+  padding-left: 10%;
+  padding-right: 7%;
+  height: 80vh;
+  margin: auto;
+  @media screen and (min-width: 320px) and (max-width: 479px) {
+    flex-direction: column;
+    padding: 1%;
+    height: 100%;
+  }
+  @media screen and (min-width: 480px) and (max-width: 779px) {
+    flex-direction: column;
+    padding: 1%;
+    height: 100%;
+  }
+  @media screen and (min-width: 800px) and (max-width: 1023px) {
+    flex-direction: column;
+    padding: 1%;
+    height: 100%;
+  }
+  @media screen and (min-width: 1200px) and (max-width: 1679px) {
+    padding-left: 5%;
+    padding-right: 2%;
+  }
+}
+.main__right {
+  width: 55%;
+  height: 100%;
+  @media screen and (min-width: 320px) and (max-width: 479px) {
+    width: 100%;
+    height: 30%;
+  }
+  @media screen and (min-width: 480px) and (max-width: 779px) {
+    width: 100%;
+    height: 20%;
+  }
+  @media screen and (min-width: 800px) and (max-width: 1023px) {
+    width: 100%;
+    height: 90%;
+  }
+}
+.main__text {
+  @media screen and (min-width: 320px) and (max-width: 1199px) {
+    display: none;
+  }
+  @media screen and (min-width: 1200px) and (max-width: 1679px) {
+    max-width: 62%;
+  }
+}
+.text__adap {
+  @media screen and (min-width: 1200px) and (max-width: 2000px) {
+    display: none;
+  }
+
+  @media screen and (min-width: 320px) and (max-width: 1023px) {
+    background-image: linear-gradient(
+      -90deg,
+      #ff3f04 0%,
+      #ffffff 90%,
+      #ffffff 100%
+    );
+    font-family: "MuseoSansCyrl";
+    color: #ffffff;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+}
+.title__adapt {
+  font-size: 25px;
+  font-weight: 700;
+  text-transform: uppercase;
+  @media screen and (min-width: 480px) and (max-width: 1023px) {
+    font-size: 60px;
+  }
+}
+.text__adapt {
+  font-size: 13px;
+  font-weight: 300;
+  text-transform: none;
+  @media screen and (min-width: 480px) and (max-width: 1023px) {
+    font-size: 20px;
+  }
+}
+
+.main__title {
+  padding-top: 25%;
+  padding-left: 5%;
+  @media screen and (min-width: 320px) and (max-width: 479px) {
+    padding: 2%;
+  }
+  @media screen and (min-width: 480px) and (max-width: 1023px) {
+    padding: 5%;
+  }
+  @media screen and (min-width: 1200px) and (max-width: 1679px) {
+    padding-top: 20%;
+    padding-left: 0;
+  }
+}
+
+.main__btn {
+  padding-left: 7%;
+  padding-top: 23%;
+  height: 30%;
+  display: flex;
+  @media screen and (min-width: 320px) and (max-width: 479px) {
+    padding: 20%;
+    height: 10%;
+    display: flex;
+    justify-content: center;
+  }
+  @media screen and (min-width: 480px) and (max-width: 779px) {
+    padding-top: 50%;
+    padding-left: 5%;
+  }
+  @media screen and (min-width: 800px) and (max-width: 1023px) {
+    padding-top: 60%;
+    padding-left: 5%;
+  }
+  @media screen and (min-width: 1200px) and (max-width: 1679px) {
+    padding-top: 27%;
+  }
+}
+.btn {
+  cursor: pointer;
+  background-color: rgba(0, 0, 0, 0.274);
+  width: 180px;
+  height: 35px;
+  padding: 0;
+  border-style: solid;
+  border-width: 1px;
+  border-image-source: linear-gradient(
+    189deg,
+    #263e66 20%,
+    #09213d 40%,
+    #111f2d 61%,
+    #23599c 79%
+  );
+  border-image-slice: 1;
+  background-origin: border-box;
+  background-clip: content-box, border-box;
+  font-family: "MuseoSansCyrl";
+  font-size: 14px;
+  line-height: 1.2;
+  font-weight: 100;
+  color: #ffffff;
+  @media screen and (min-width: 320px) and (max-width: 479px) {
+    width: 140px;
+    height: 35px;
+  }
+}
+.btn__elem {
+  width: 109%;
+  margin-top: 20px;
+  @media screen and (min-width: 320px) and (max-width: 479px) {
+    display: none;
+  }
+  @media screen and (min-width: 480px) and (max-width: 779px) {
+    width: 40%;
+  }
+  @media screen and (min-width: 800px) and (max-width: 1023px) {
+    width: 45%;
+  }
+  @media screen and (min-width: 1200px) and (max-width: 1679px) {
+    width: 87%;
+  }
+}
+.main__left {
+  width: 43%;
+  height: 100%;
+  @media screen and (min-width: 320px) and (max-width: 479px) {
+    width: 100%;
+    height: 25%;
+  }
+  @media screen and (min-width: 480px) and (max-width: 779px) {
+    width: 100%;
+    height: 35%;
+    margin-top: 17%;
+  }
+  @media screen and (min-width: 800px) and (max-width: 1023px) {
+    width: 100%;
+    height: 35%;
+    margin-top: 20%;
+  }
+}
+
+.card__wrapper {
+  padding-top: 20%;
+  padding-left: 35%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  gap: 5px;
+  @media screen and (min-width: 320px) and (max-width: 479px) {
+    padding: 10px;
+    justify-content: center;
+    gap: 15px;
+  }
+  @media screen and (min-width: 480px) and (max-width: 779px) {
+    padding: 10px;
+    justify-content: center;
+    gap: 15px;
+  }
+  @media screen and (min-width: 800px) and (max-width: 1023px) {
+    padding: 10px;
+    justify-content: center;
+    flex-wrap: nowrap;
+    gap: 5px;
+  }
+}
+.card {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  width: 45%;
+  height: 45%;
+
+  font-family: "MuseoSansCyrl";
+  font-size: 16px;
+  line-height: 1.2;
+  font-weight: 100;
+  color: #ffffff;
+  @media screen and (min-width: 480px) and (max-width: 779px) {
+    width: 23%;
+    height: 23%;
+  }
+  @media screen and (min-width: 800px) and (max-width: 1023px) {
+    width: 25%;
+    height: 25%;
+  }
+
+  &:hover {
+    cursor: pointer;
+  }
+
+  .card__text {
+    padding-bottom: 15px;
+    @media screen and (min-width: 480px) and (max-width: 1023px) {
+      padding-top: 15px;
+    }
+  }
+  .number {
+    font-size: 60px;
+    font-weight: 700;
+    @media screen and (min-width: 320px) and (max-width: 479px) {
+      font-size: 30px;
+    }
+    @media screen and (min-width: 480px) and (max-width: 779px) {
+      font-size: 40px;
+    }
+    @media screen and (min-width: 1200px) and (max-width: 1679px) {
+      font-size: 40px;
+    }
+  }
+  .card__text {
+    font-size: 18px;
+  }
+}
+.one {
+  background-image: linear-gradient(
+    to left top,
+    rgba(173, 173, 173, 0.082),
+    rgba(153, 153, 153, 0)
+  );
+  &:hover {
+    background-image: linear-gradient(
+      to left top,
+      rgba(173, 173, 173, 0.199),
+      rgba(153, 153, 153, 0)
+    );
+    border-bottom: 0.5px solid #9893935d;
+    border-right: 0.5px solid #98939359;
+  }
+}
+.two {
+  background-image: linear-gradient(
+    to right top,
+    rgba(173, 173, 173, 0.082),
+    rgba(153, 153, 153, 0)
+  );
+  &:hover {
+    background-image: linear-gradient(
+      to right top,
+      rgba(173, 173, 173, 0.199),
+      rgba(153, 153, 153, 0)
+    );
+    border-bottom: 0.5px solid #9893935d;
+    border-left: 0.5px solid #98939359;
+  }
+}
+.three {
+  background-image: linear-gradient(
+    to left bottom,
+    rgba(173, 173, 173, 0.082),
+    rgba(153, 153, 153, 0)
+  );
+  &:hover {
+    background-image: linear-gradient(
+      to left bottom,
+      rgba(173, 173, 173, 0.199),
+      rgba(153, 153, 153, 0)
+    );
+    border-top: 0.5px solid #9893935d;
+    border-right: 0.5px solid #98939359;
+  }
+}
+.four {
+  background-image: linear-gradient(
+    to right bottom,
+    rgba(173, 173, 173, 0.082),
+    rgba(153, 153, 153, 0)
+  );
+  &:hover {
+    background-image: linear-gradient(
+      to right bottom,
+      rgba(173, 173, 173, 0.199),
+      rgba(153, 153, 153, 0)
+    );
+    border-top: 0.5px solid #9893935d;
+    border-left: 0.5px solid #98939359;
+  }
+}
